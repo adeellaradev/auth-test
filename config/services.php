@@ -34,5 +34,8 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
-
+    'recaptcha' => [
+        'key' => env('RECAPTCHAV3_SITEKEY'),
+        'secret' => env('RECAPTCHAV3_SECRET'),
+    ]
 ];
